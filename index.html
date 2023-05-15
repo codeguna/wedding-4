@@ -485,20 +485,6 @@
 						<div class="col-md-4 col-xs-6">
 							<div class="item-protocol">
 								<div class="icon">
-									<img style="padding: 10px" height="90px" width="90px" src="images/health-protocol/shaking-hands.png" alt="Tidak Bersalaman"/>
-								</div>
-								<div class="description">
-									<h3>Tidak Bersalaman</h3>
-									<p>Diusahakan untuk tidak bersalaman</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<p style="color: #bf9b73">dan mengikuti anjuran di bawah ini :</p>
-					<div class="row">
-						<div class="col-md-4 col-xs-6">
-							<div class="item-protocol">
-								<div class="icon">
 									<img style="padding: 10px" height="90px" width="90px" src="images/health-protocol/eating.png" alt="Adab makan minum"/>
 								</div>
 								<div class="description">
@@ -507,29 +493,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4 col-xs-6">
-							<div class="item-protocol">
-								<div class="icon">
-									<img style="padding: 15px" height="100px" width="100px" src="images/health-protocol/no-shaking-hands.png" alt="Jaga jarak"/>
-								</div>
-								<div class="description">
-									<h3>Tidak Bercampur Baur</h3>
-									<p>Mohon untuk tidak bercampur baur dan tidak bersalaman antara tamu laki-laki dan perempuan termasuk saat berfoto (kecuali dengan mahram)</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-xs-6">
-							<div class="item-protocol">
-								<div class="icon">
-									<img style="padding: 10px" height="90px" width="90px" src="images/health-protocol/rug.png" alt="Sholat"/>
-								</div>
-								<div class="description">
-									<h3>Sholat</h3>
-									<p>Memperhatikan waktu shalat wajib dan tidak meninggalkannya</p>
-								</div>
-							</div>
-						</div>
-					</div>
+					</div>					
 				</div>
 			</div>
 		</div>
@@ -586,17 +550,26 @@
                     </div>
                 </div>
             </div>-->
-
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2">
-					<div class="list-group"></div>
-				</div>
-			</div>
-
-			<div id="button-send" class="text-center animate-box">
-				<a href="https://github.com/maulidandev/nikah-rehan-maulidan/issues/new/choose" target="_blank" class="btn btn-primary btn-sm">Kirim Ucapan</a><br>
-				<i style="font-size: 15px">Note : Hanya bisa diisi jika mempunyai akun github. Jika belum ada silahkan daftar terlebih dahulu</i>
-			</div>
+			<div id="disqus_thread"></div>
+			<script>
+				/**
+				*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+				*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+				/*
+				var disqus_config = function () {
+				this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+				this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+				};
+				*/
+				(function() { // DON'T EDIT BELOW THIS LINE
+				var d = document, s = d.createElement('script');
+				s.src = 'https://codeguna-github-io.disqus.com/embed.js';
+				s.setAttribute('data-timestamp', +new Date());
+				(d.head || d.body).appendChild(s);
+				})();
+			</script>
+			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+			
 		</div>
 	</div>
 
@@ -700,8 +673,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
 
 <script>
-	day = 20; month = 5-1; year = 2022;
-	hour = 18; minute = 0;
+	day = 10; month = 6; year = 2023;
+	hour = 11; minute = 0;
 	var d = new Date(year, month, day, hour, minute, 0, 0);
 
 	// default example
@@ -935,7 +908,7 @@
 	// Since we are using dynamic mode, we need to programmatically open lightGallery
 	inlineGallery.openGallery();
 </script>
-
+<script id="dsq-count-scr" src="//codeguna-github-io.disqus.com/count.js" async></script>
 </body>
 </html>
 
